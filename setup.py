@@ -3,13 +3,13 @@ from distutils.core import setup
 setup(
     name="teleframe",
     packages=["teleframe"],
-    version="0.3.4",
+    version="0.3.5",
     license="MIT",
     description="Simple python module for Telegram Bot API Webhooks.",
     author="speedssster",
     author_email="lastprogamer0@gmail.com",
     url="https://github.com/Speedssster/teleframe",
-    download_url="https://github.com/Speedssster/teleframe/archive/0.3.3.tar.gz",
+    download_url="https://github.com/Speedssster/teleframe/archive/0.3.5.tar.gz",
     keywords=["telegram_bot", "API", "webhooks"],
     install_requires=["requests"],
     classifiers=[
