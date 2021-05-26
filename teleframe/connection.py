@@ -23,7 +23,7 @@ class Connection:
 
         try:
             files = kwargs.pop("files", None)
-            response = post(self.url + method, data=kwargs, files=files)
+            response = post(self.url + method, data=kwargs, files=files, timeout=8)
         except Exception as error:
             print(error)
             return (False, {"error": error})
